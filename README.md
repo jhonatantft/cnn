@@ -27,7 +27,7 @@ To achieve the goal, the following steps were necessary:
    
    
    ```shell
-   podman run -it --rm -v ../DATASETS/dataset-johnatan:/dataset \
+   podman run -it --rm -v ../DATASETS/your_dataset_path:/dataset \
                        -v .:/root/work cnn-pipenv
    
    ```
